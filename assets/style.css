@@ -1,0 +1,62 @@
+body{
+    margin: 0 auto;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.parent{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-color: black;
+
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.textTop{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.ref{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    vertical-align: top;
+
+    margin: 50px 500px;
+    color: white;
+}
+.navlink{
+    vertical-align: top;
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s linear;
+    justify-content: space-between;
+}
+.navlink:hover{
+    color: aqua;
+}
+.git{
+    position: absolute;
+    bottom: 95px;
+    left: 0;
+    right: 0;
+    
+    text-align: center;
+    height: 60px;
+}
+.gitlink{
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s linear;
+    font-size: 25px;
+}
+.gitlink:hover{
+    color:blue;
+}
